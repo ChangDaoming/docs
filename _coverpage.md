@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](/favicon.ico)
+![logo](/assets/favicon.svg)
 
 # 小雨 de 技术文档
 
