@@ -2,7 +2,7 @@
 
 ![logo](/assets/favicon.svg)
 
-# 小雨 de 技术文档
+# 小雨不会卡 de 技术文档
 
 > 计算机技术学习资料分享
 
