@@ -4,6 +4,8 @@
   - [前言](README.md) <!--注意这里是相对路径-->
 - 中职移动应用与开发学习路线及建议
   - [介绍](/docs/app/doc1.md)
+- Python
+  - [程序题](/docs/python/程序题.md)
 - 计算机网络
   - [1.1 认识计算机网络](/docs/network/1.1计算机网络概述.md)
   - [1.2 计算机网络的组成](/docs/network/1.2计算机网络组成.md)
