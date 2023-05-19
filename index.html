@@ -13,8 +13,7 @@
 
     <!-- 默认主题 -->
     <link rel="stylesheet" href="./themes/vue.css">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
-        title="docsify-darklight-theme" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sushantrahate/docsify-darkly-theme/css/darkly.css">
 
     <!-- 其他主题（可选） -->
     <!-- <link rel="stylesheet" href="./themes/buble.css"> -->
@@ -42,6 +41,8 @@
             loadSidebar: true,
             // 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
             loadNavbar: true,
+            // 开启访问量
+            busuanzi: true,
             // 封面支持，默认加载的是项目根目录下的_coverpage.md文件
             coverpage: true,
             // 最大支持渲染的标题层级
@@ -90,8 +91,8 @@
         })
     </script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js" type="text/javascript">
-    </script>
+    <!-- 自动加载，注入 CSS -->
+    <script script src=" //unpkg.com/@rakutentech/docsify-code-inline/dist/index.min.js "></script>
 </body>
 
 </html>
