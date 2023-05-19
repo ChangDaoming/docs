@@ -67,19 +67,7 @@
                 hideOtherSidebarContent: false,
                 namespace: '小雨不会卡de技术文档',
             },
-            formatUpdated: function () {
-                const today = new Date();
-
-                // Example custom dictionary:
-                //   - Adds {MMMM}
-                //   - Overrides {DD}
-                const stamp = tinydate('Today is: {MMMM} {DD}, {YYYY}', {
-                    MMMM: d => d.toLocaleString('default', { month: 'long' }),
-                    DD: d => d.getDate()
-                });
-                console.log(stamp(today));
-                return stamp(today);
-            },
+            formatUpdated: '{MM}/{DD} {HH}:{mm}',
 
         }
     </script>
